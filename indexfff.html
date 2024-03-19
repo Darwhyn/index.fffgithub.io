@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AMooor leeme te lo suplico</title>
+  <style>
+    .body {
+
+
+
+      align-items: center;
+      min-height: 100vh;
+      background: url(e.jpg) no-repeat;
+
+
+      text-align: center;
+    }
+
+    .body__title {
+      color: black;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 512px;
+      border-radius: 50%;
+
+    }
+    .a{
+      width: 20%;
+  height: 71px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">Vamos hacer llamada hoy mi amooor lindaaaaaaaaaa, TE lo ruego chiiiiiii re lo suplico   </h1>
+  <img src="a.jpg" alt="Foto D My" class="body__img" />
+
+  <br>
+  <button class="a" id="yes">Chiiii  vamos hacer llamada Amor </button>
+  <button class="a" id="no">no mandas</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('Chi esta bien mi amor ');
+      alert('Y vamos hacer llamada chiiiiii');
+      location.href = 'https://wa.link/uchhj2';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
